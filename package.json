@@ -1,7 +1,7 @@
 {
   "name": "ts-result",
   "description": "A tiny TypeScript result monad.",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "license": "MIT",
   "repository": "github:DerYeger/ts-result",
   "homepage": "https://ts-result.yeger.eu",
