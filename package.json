@@ -1,0 +1,84 @@
+{
+  "name": "ts-result",
+  "description": "A tiny TypeScript result monad.",
+  "version": "0.0.0",
+  "license": "MIT",
+  "repository": "github:DerYeger/ts-result",
+  "homepage": "https://ts-result.yeger.eu",
+  "bugs": {
+    "url": "https://github.com/DerYeger/ts-result/issues"
+  },
+  "author": {
+    "name": "Jan Müller",
+    "url": "https://github.com/DerYeger"
+  },
+  "keywords": [
+    "result",
+    "monad",
+    "typescript"
+  ],
+  "scripts": {
+    "prepare": "husky install",
+    "prebuild": "rimraf ./dist",
+    "build": "tsc --noEmit && vite build",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "lint": "yarn lint:prettier && yarn lint:eslint",
+    "lint:commits": "yarn commitlint --from=HEAD~1",
+    "lint:eslint": "eslint \"./**/*.{js,ts,vue}\"",
+    "lint:prettier": "prettier --check \"./**/*.{js,json,html,scss,ts,vue,yml}\"",
+    "fix": "yarn pretty && yarn lint:eslint --fix ",
+    "test": "vitest --api --open",
+    "test:ci": "rimraf ./coverage && c8 --reporter=lcov --reporter=text --all --src \"src\" --include \"src/*\" vitest --run",
+    "test:run": "vitest --run",
+    "pretty": "prettier --write \"./**/*.{js,json,html,scss,ts,vue,yml}\"",
+    "prepublishOnly": "yarn build"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/ts-result.umd.js",
+  "module": "./dist/ts-result.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/ts-result.es.js",
+      "require": "./dist/ts-result.umd.js"
+    }
+  },
+  "types": "dist/types/src/main.d.ts",
+  "sideEffects": false,
+  "devDependencies": {
+    "@commitlint/cli": "16.0.1",
+    "@commitlint/config-conventional": "16.0.0",
+    "@types/node": "16.11.17",
+    "@typescript-eslint/eslint-plugin": "5.8.1",
+    "@typescript-eslint/parser": "5.8.1",
+    "@vitest/ui": "0.0.127",
+    "@vue/component-compiler-utils": "3.3.0",
+    "@vuepress/plugin-register-components": "1.9.5",
+    "c8": "7.11.0",
+    "eslint": "8.6.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-import": "2.25.4",
+    "eslint-plugin-prettier": "4.0.0",
+    "eslint-plugin-tsdoc": "0.2.14",
+    "eslint-plugin-unused-imports": "2.0.0",
+    "eslint-plugin-vue": "8.2.0",
+    "husky": "7.0.4",
+    "lint-staged": "12.1.4",
+    "prettier": "2.5.1",
+    "rimraf": "3.0.2",
+    "typescript": "4.5.4",
+    "vite": "2.7.10",
+    "vite-plugin-dts": "0.9.7",
+    "vitest": "0.0.125",
+    "vuepress": "2.0.0-beta.32"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "lint-staged": {
+    "*.{js,json,html,scss,ts,vue,yml}": "prettier --write",
+    "*.{js,json,ts,vue}": "eslint --fix"
+  }
+}
