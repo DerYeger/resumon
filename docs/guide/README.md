@@ -10,13 +10,13 @@ contributors: false
   <CodeGroupItem title="Yarn" active>
 
 ```bash:no-line-numbers
-yarn add ts-result
+yarn add resumon
 ```
   </CodeGroupItem>
   <CodeGroupItem title="npm">
 
 ```bash:no-line-numbers
-npm install ts-result
+npm install resumon
 ```
   </CodeGroupItem>
 </CodeGroup>

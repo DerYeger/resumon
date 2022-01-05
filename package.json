@@ -1,12 +1,12 @@
 {
-  "name": "ts-result",
+  "name": "resumon",
   "description": "A tiny TypeScript result monad.",
   "version": "1.0.0",
   "license": "MIT",
-  "repository": "github:DerYeger/ts-result",
-  "homepage": "https://ts-result.yeger.eu",
+  "repository": "github:DerYeger/resumon",
+  "homepage": "https://resumon.yeger.eu",
   "bugs": {
-    "url": "https://github.com/DerYeger/ts-result/issues"
+    "url": "https://github.com/DerYeger/resumon/issues"
   },
   "author": {
     "name": "Jan Müller",
@@ -37,12 +37,12 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/ts-result.umd.js",
-  "module": "./dist/ts-result.es.js",
+  "main": "./dist/resumon.umd.js",
+  "module": "./dist/resumon.es.js",
   "exports": {
     ".": {
-      "import": "./dist/ts-result.es.js",
-      "require": "./dist/ts-result.umd.js"
+      "import": "./dist/resumon.es.js",
+      "require": "./dist/resumon.umd.js"
     }
   },
   "types": "dist/types/src/main.d.ts",

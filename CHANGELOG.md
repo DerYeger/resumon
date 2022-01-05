@@ -3,4 +3,4 @@
 
 ### Features
 
-* create project ([22933a1](https://github.com/DerYeger/ts-result/commit/22933a1788726078ccbe2a8b3523c6d203b65337))
+* create project ([22933a1](https://github.com/DerYeger/resumon/commit/22933a1788726078ccbe2a8b3523c6d203b65337))
