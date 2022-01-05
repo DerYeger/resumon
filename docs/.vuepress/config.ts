@@ -33,7 +33,6 @@ export default defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
   // theme and its config
   theme: '@vuepress/theme-default',
   themeConfig: {
-    logo: '/logo.svg',
     repo: Meta.repository.replace('github:', ''),
     docsBranch: 'master',
     docsDir: 'docs',
