@@ -4912,7 +4912,7 @@ vite-plugin-dts@0.9.9:
     fs-extra "^10.0.0"
     ts-morph "^13.0.0"
 
-vite@2.8.4, vite@^2.7.13, vite@^2.8.2:
+vite@2.8.4, vite@^2.7.10, vite@^2.7.13:
   version "2.8.4"
   resolved "https://registry.yarnpkg.com/vite/-/vite-2.8.4.tgz#4e52a534289b7b4e94e646df2fc5556ceaa7336b"
   integrity sha512-GwtOkkaT2LDI82uWZKcrpRQxP5tymLnC7hVHHqNkhFNknYr0hJUlDLfhVRgngJvAy3RwypkDCWtTKn1BjO96Dw==
@@ -4924,10 +4924,10 @@ vite@2.8.4, vite@^2.7.13, vite@^2.8.2:
   optionalDependencies:
     fsevents "~2.3.2"
 
-vitest@0.4.2:
-  version "0.4.2"
-  resolved "https://registry.yarnpkg.com/vitest/-/vitest-0.4.2.tgz#0c1c2f43215f118815deace87a9ec37f13d48adf"
-  integrity sha512-f5kclFhkCuIKQ96lsAveESeyfTf9ihT79ZQcLDNCoJbMDNTHQdSMnU7aq9KAeOmZVh4la3NANKWECWM7HfP1ng==
+vitest@0.5.3:
+  version "0.5.3"
+  resolved "https://registry.yarnpkg.com/vitest/-/vitest-0.5.3.tgz#8bd9894aaf026a59b3312cfdb4fe44ad444a41fc"
+  integrity sha512-tAV96lEUvycgiqsQKoQRjzXwDg+ae/R2jBLtt6MnFywOXbC9wYl+nRT9qT+d/+Mlw2B4dvVa9zuekY3emdcXJA==
   dependencies:
     "@types/chai" "^4.3.0"
     "@types/chai-subset" "^1.3.3"
@@ -4935,7 +4935,7 @@ vitest@0.4.2:
     local-pkg "^0.4.1"
     tinypool "^0.1.2"
     tinyspy "^0.3.0"
-    vite "^2.8.2"
+    vite "^2.7.10"
 
 vue-demi@*:
   version "0.12.1"
