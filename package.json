@@ -48,7 +48,7 @@
   "types": "dist/types/src/main.d.ts",
   "sideEffects": false,
   "devDependencies": {
-    "@commitlint/cli": "16.2.1",
+    "@commitlint/cli": "16.2.3",
     "@commitlint/config-conventional": "16.2.1",
     "@types/node": "16.11.26",
     "@typescript-eslint/eslint-plugin": "5.15.0",
