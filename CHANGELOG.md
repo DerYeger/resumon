@@ -1,3 +1,10 @@
+## [1.0.16](https://github.com/DerYeger/resumon/compare/v1.0.15...v1.0.16) (2022-04-30)
+
+
+### Bug Fixes
+
+* **release:** schedule release ([211036b](https://github.com/DerYeger/resumon/commit/211036b8cef7d32113c5cfc05cea5d8778e5691a))
+
 ## [1.0.15](https://github.com/DerYeger/resumon/compare/v1.0.14...v1.0.15) (2022-04-22)
 
 
