@@ -1,9 +1,9 @@
-import { defineUserConfig, ViteBundlerOptions } from 'vuepress'
-import type { DefaultThemeOptions } from 'vuepress'
+import { defaultTheme, defineUserConfig, viteBundler } from 'vuepress'
+import registerComponentsPlugin from '@vuepress/plugin-register-components'
 import Meta from '../../package.json'
 import * as path from 'path'
 
-export default defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
+export default defineUserConfig({
   // site config
   lang: 'en-US',
   title: Meta.name,
@@ -31,8 +31,7 @@ export default defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
   ],
 
   // theme and its config
-  theme: '@vuepress/theme-default',
-  themeConfig: {
+  theme: defaultTheme({
     repo: Meta.repository.replace('github:', ''),
     docsBranch: 'master',
     docsDir: 'docs',
@@ -40,21 +39,17 @@ export default defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
       { text: 'Home', link: '/' },
       { text: 'Guide', link: '/guide/' },
     ],
-  },
+  }),
 
-  bundler: '@vuepress/vite',
-  bundlerConfig: {
+  bundler: viteBundler({
     viteOptions: {
       configFile: 'docs/vite.config.ts',
     },
-  },
+  }),
 
   plugins: [
-    [
-      '@vuepress/plugin-register-components',
-      {
-        componentsDir: path.resolve(__dirname, './components'),
-      },
-    ],
+    registerComponentsPlugin({
+      componentsDir: path.resolve(__dirname, './components'),
+    }),
   ],
 })
