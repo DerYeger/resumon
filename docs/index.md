@@ -1,11 +1,13 @@
 ---
-home: true
-actions:
-- text: Guide
-  link: /guide/README.md
-  type: primary
-footer: "MIT - Copyright &copy; Jan Müller"
-footerHtml: true
+layout: home
+hero:
+  name: resumon
+  text: ''
+  tagline: A tiny TypeScript result monad.
+  actions:
+    - text: Guide
+      link: /guide/
+      theme: brand
 ---
 
 <div id="status" style="margin-top: 40px">
