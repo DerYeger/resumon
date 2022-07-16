@@ -1,9 +1,7 @@
-import { defaultTheme, defineUserConfig, viteBundler } from 'vuepress'
-import registerComponentsPlugin from '@vuepress/plugin-register-components'
+import { defineConfig } from 'vitepress'
 import Meta from '../../package.json'
-import * as path from 'path'
 
-export default defineUserConfig({
+export default defineConfig({
   // site config
   lang: 'en-US',
   title: Meta.name,
@@ -30,26 +28,36 @@ export default defineUserConfig({
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
   ],
 
+  markdown: {
+    theme: {
+      light: 'vitesse-light',
+      dark: 'vitesse-dark',
+    },
+  },
+
   // theme and its config
-  theme: defaultTheme({
-    repo: Meta.repository.replace('github:', ''),
-    docsBranch: 'master',
-    docsDir: 'docs',
-    navbar: [
+  themeConfig: {
+    editLink: {
+      pattern: 'https://github.com/DerYeger/resumon/tree/master/docs/:path',
+      text: 'Suggest changes to this page',
+    },
+
+    nav: [
       { text: 'Home', link: '/' },
       { text: 'Guide', link: '/guide/' },
     ],
-  }),
 
-  bundler: viteBundler({
-    viteOptions: {
-      configFile: 'docs/vite.config.ts',
+    socialLinks: [
+      { icon: 'twitter', link: 'https://twitter.com/DerYeger' },
+      {
+        icon: 'github',
+        link: 'https://github.com/DerYeger/resumon',
+      },
+    ],
+
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2021-PRESENT Jan Müller',
     },
-  }),
-
-  plugins: [
-    registerComponentsPlugin({
-      componentsDir: path.resolve(__dirname, './components'),
-    }),
-  ],
+  },
 })
