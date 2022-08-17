@@ -1,3 +1,10 @@
+## [1.0.32](https://github.com/DerYeger/resumon/compare/v1.0.31...v1.0.32) (2022-08-17)
+
+
+### Bug Fixes
+
+* **deps:** update dependency vite to v3.0.8 ([36dae67](https://github.com/DerYeger/resumon/commit/36dae67f27739ba91ad15b1d7b730d6b8cbdb32c))
+
 ## [1.0.31](https://github.com/DerYeger/resumon/compare/v1.0.30...v1.0.31) (2022-08-16)
 
 
