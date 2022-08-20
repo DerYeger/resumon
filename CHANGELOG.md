@@ -1,3 +1,10 @@
+## [1.0.35](https://github.com/DerYeger/resumon/compare/v1.0.34...v1.0.35) (2022-08-20)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([b856937](https://github.com/DerYeger/resumon/commit/b8569375b9acfaf22f56b43a0d526af3f730f88f))
+
 ## [1.0.34](https://github.com/DerYeger/resumon/compare/v1.0.33...v1.0.34) (2022-08-19)
 
 
