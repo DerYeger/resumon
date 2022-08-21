@@ -1,3 +1,10 @@
+## [1.0.36](https://github.com/DerYeger/resumon/compare/v1.0.35...v1.0.36) (2022-08-21)
+
+
+### Bug Fixes
+
+* **deps:** update dependency vitepress to v1.0.0-alpha.9 ([60a7a02](https://github.com/DerYeger/resumon/commit/60a7a02739b6d239f26bf122a15478ff1bddb5b7))
+
 ## [1.0.35](https://github.com/DerYeger/resumon/compare/v1.0.34...v1.0.35) (2022-08-20)
 
 
