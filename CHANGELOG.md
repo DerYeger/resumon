@@ -1,3 +1,10 @@
+## [1.0.40](https://github.com/DerYeger/resumon/compare/v1.0.39...v1.0.40) (2022-08-26)
+
+
+### Bug Fixes
+
+* **deps:** update dependency typescript to v4.8.2 ([459b69e](https://github.com/DerYeger/resumon/commit/459b69e796ebcac42e89b3866f6a7ae0b7823e28))
+
 ## [1.0.39](https://github.com/DerYeger/resumon/compare/v1.0.38...v1.0.39) (2022-08-25)
 
 
