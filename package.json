@@ -1,7 +1,7 @@
 {
   "name": "resumon",
   "description": "A tiny TypeScript result monad.",
-  "version": "1.0.40",
+  "version": "1.0.41",
   "license": "MIT",
   "repository": "github:DerYeger/resumon",
   "homepage": "https://resumon.yeger.eu",
