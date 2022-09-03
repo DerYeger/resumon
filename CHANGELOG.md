@@ -1,3 +1,10 @@
+## [1.0.43](https://github.com/DerYeger/resumon/compare/v1.0.42...v1.0.43) (2022-09-03)
+
+
+### Bug Fixes
+
+* **deps:** update commitlint monorepo ([0d2b41f](https://github.com/DerYeger/resumon/commit/0d2b41f52cf5200bc1ac2f38a70ea2f5cd6924e3))
+
 ## [1.0.42](https://github.com/DerYeger/resumon/compare/v1.0.41...v1.0.42) (2022-09-03)
 
 
