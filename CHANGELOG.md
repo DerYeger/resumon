@@ -1,3 +1,10 @@
+## [1.0.49](https://github.com/DerYeger/resumon/compare/v1.0.48...v1.0.49) (2022-09-24)
+
+
+### Bug Fixes
+
+* **deps:** update actions/stale action to v6 ([5c9c4ac](https://github.com/DerYeger/resumon/commit/5c9c4ac8a04bd8c0249df2c18a7f337013f47638))
+
 ## [1.0.48](https://github.com/DerYeger/resumon/compare/v1.0.47...v1.0.48) (2022-09-24)
 
 
