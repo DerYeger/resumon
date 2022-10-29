@@ -1,3 +1,10 @@
+## [1.0.59](https://github.com/DerYeger/resumon/compare/v1.0.58...v1.0.59) (2022-10-29)
+
+
+### Bug Fixes
+
+* **deps:** update typescript-eslint monorepo to v5.41.0 ([510daef](https://github.com/DerYeger/resumon/commit/510daefbb611600921d3a6191ffb88bd9c544a4f))
+
 ## [1.0.58](https://github.com/DerYeger/resumon/compare/v1.0.57...v1.0.58) (2022-10-29)
 
 
