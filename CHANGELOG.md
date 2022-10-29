@@ -1,3 +1,10 @@
+## [1.0.60](https://github.com/DerYeger/resumon/compare/v1.0.59...v1.0.60) (2022-10-29)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @types/node to v18 ([789ba0b](https://github.com/DerYeger/resumon/commit/789ba0bc6e5657c082a50247d5d63e8f24f1e9b8))
+
 ## [1.0.59](https://github.com/DerYeger/resumon/compare/v1.0.58...v1.0.59) (2022-10-29)
 
 
