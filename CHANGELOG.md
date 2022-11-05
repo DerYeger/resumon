@@ -1,3 +1,10 @@
+## [1.0.63](https://github.com/DerYeger/resumon/compare/v1.0.62...v1.0.63) (2022-11-05)
+
+
+### Bug Fixes
+
+* **deps:** update commitlint monorepo to v17.2.0 ([9b2a66d](https://github.com/DerYeger/resumon/commit/9b2a66d294e910140fa17645d59d7b1e98c58ba5))
+
 ## [1.0.62](https://github.com/DerYeger/resumon/compare/v1.0.61...v1.0.62) (2022-11-05)
 
 
