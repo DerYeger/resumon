@@ -1,3 +1,10 @@
+## [1.0.64](https://github.com/DerYeger/resumon/compare/v1.0.63...v1.0.64) (2022-11-12)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([be771a0](https://github.com/DerYeger/resumon/commit/be771a0e813f746d77c074fc6a2def44fc74527f))
+
 ## [1.0.63](https://github.com/DerYeger/resumon/compare/v1.0.62...v1.0.63) (2022-11-05)
 
 
