@@ -1,3 +1,10 @@
+## [1.0.70](https://github.com/DerYeger/resumon/compare/v1.0.69...v1.0.70) (2022-11-26)
+
+
+### Bug Fixes
+
+* **deps:** update vitest monorepo to v0.25.3 ([8bc555c](https://github.com/DerYeger/resumon/commit/8bc555c799f95dc4ee8d4f655f4f9f2168a02426))
+
 ## [1.0.69](https://github.com/DerYeger/resumon/compare/v1.0.68...v1.0.69) (2022-11-19)
 
 
