@@ -1,3 +1,10 @@
+## [1.0.75](https://github.com/DerYeger/resumon/compare/v1.0.74...v1.0.75) (2022-12-10)
+
+
+### Bug Fixes
+
+* **deps:** update dependency vite to v4 ([#23](https://github.com/DerYeger/resumon/issues/23)) ([8fefd00](https://github.com/DerYeger/resumon/commit/8fefd001390757e765d557ca732b560e35180927))
+
 ## [1.0.74](https://github.com/DerYeger/resumon/compare/v1.0.73...v1.0.74) (2022-12-10)
 
 
